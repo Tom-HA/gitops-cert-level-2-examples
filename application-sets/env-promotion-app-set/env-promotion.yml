@@ -11,7 +11,7 @@ spec:
           - path: environment-promotion/envs/*
   template:
     metadata:
-      name: 'simple-depolyment-{{path.basename}}'
+      name: '{{path.basename}}'
     spec:
       project: default
       source:
